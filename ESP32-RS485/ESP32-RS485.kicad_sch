@@ -2394,6 +2394,139 @@
 				)
 			)
 		)
+		(symbol "Device:Fuse"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "F"
+				(at 2.032 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Fuse"
+				(at -1.905 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Fuse"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "fuse"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "*Fuse*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Fuse_0_1"
+				(rectangle
+					(start -0.762 -2.54)
+					(end 0.762 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Fuse_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Device:LED"
 			(pin_numbers hide)
 			(pin_names
@@ -3054,152 +3187,6 @@
 						)
 					)
 					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "Device:Polyfuse_Small"
-			(pin_numbers hide)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "F"
-				(at -1.905 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Polyfuse_Small"
-				(at 1.905 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 1.27 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Resettable fuse, polymeric positive temperature coefficient, small symbol"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "resettable fuse PTC PPTC polyfuse polyswitch"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "*polyfuse* *PTC*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Polyfuse_Small_0_1"
-				(rectangle
-					(start -0.508 1.27)
-					(end 0.508 -1.27)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.016 1.27) (xy -1.016 0.762) (xy 1.016 -0.762) (xy 1.016 -1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Polyfuse_Small_1_1"
-				(pin passive line
-					(at 0 2.54 270)
-					(length 0.635)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -2.54 90)
-					(length 0.635)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -6996,10 +6983,10 @@
 		(uuid "c8b1f0b9-b970-41c3-ab1b-5e2d63ea7ded")
 	)
 	(junction
-		(at 91.44 49.53)
+		(at 90.17 49.53)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "eb004a1e-624a-480d-b51c-e3ac4c9cebe9")
+		(uuid "d4b0c900-c75a-44c5-9b6e-c76dadbd20a6")
 	)
 	(junction
 		(at 361.95 198.12)
@@ -8103,7 +8090,7 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 49.53) (xy 77.47 49.53)
+			(xy 69.85 49.53) (xy 76.2 49.53)
 		)
 		(stroke
 			(width 0)
@@ -8223,7 +8210,7 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 46.99) (xy 91.44 49.53)
+			(xy 90.17 46.99) (xy 90.17 49.53)
 		)
 		(stroke
 			(width 0)
@@ -8380,16 +8367,6 @@
 			(type default)
 		)
 		(uuid "ad287213-bb02-4dae-93fa-8b2cd7e28f12")
-	)
-	(wire
-		(pts
-			(xy 82.55 49.53) (xy 91.44 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "adf42f97-37c2-46a5-ad8a-1b92775d3d66")
 	)
 	(wire
 		(pts
@@ -8613,6 +8590,16 @@
 	)
 	(wire
 		(pts
+			(xy 83.82 49.53) (xy 90.17 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c3319245-eb00-4bf2-83b7-133425c59ca9")
+	)
+	(wire
+		(pts
 			(xy 201.93 229.87) (xy 196.85 229.87)
 		)
 		(stroke
@@ -8760,6 +8747,16 @@
 			(type default)
 		)
 		(uuid "d178f9e4-088a-4d86-9dd7-e3cb2dd33575")
+	)
+	(wire
+		(pts
+			(xy 90.17 49.53) (xy 95.25 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d1bb49a3-0331-4cf7-92c3-7663bf0e5b26")
 	)
 	(wire
 		(pts
@@ -8960,16 +8957,6 @@
 			(type default)
 		)
 		(uuid "f7514ba5-1479-495e-84fe-83f6e84f3396")
-	)
-	(wire
-		(pts
-			(xy 91.44 49.53) (xy 95.25 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f75ef95d-d7c4-49a5-8e74-074c0fc95247")
 	)
 	(wire
 		(pts
@@ -10339,7 +10326,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 91.44 46.99 0)
+		(at 90.17 46.99 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10348,7 +10335,7 @@
 		(fields_autoplaced yes)
 		(uuid "0ded1a7a-02d3-40a9-93ac-f7a75cc54b90")
 		(property "Reference" "#PWR013"
-			(at 91.44 50.8 0)
+			(at 90.17 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10357,7 +10344,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 91.44 41.91 0)
+			(at 90.17 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10365,7 +10352,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 91.44 46.99 0)
+			(at 90.17 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10374,7 +10361,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 91.44 46.99 0)
+			(at 90.17 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10383,7 +10370,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 91.44 46.99 0)
+			(at 90.17 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11728,7 +11715,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.00mm:PinHeader_1x14_P2.00mm_Vertical"
 			(at 54.61 193.04 0)
 			(effects
 				(font
@@ -15730,7 +15717,7 @@
 			)
 		)
 		(pin "5"
-			(uuid "ca42e8b2-6d7f-431d-80ca-fd927e029c5b")
+			(uuid "ca42e8b2-6d7f-431d-80ca-fd927e029c5c")
 		)
 		(pin "2"
 			(uuid "59969cbc-61ab-488d-b718-b4b7f6a0179e")
@@ -15739,10 +15726,10 @@
 			(uuid "4be44eec-2b38-4f83-9d65-73a10e03ab49")
 		)
 		(pin "3"
-			(uuid "6a8ce862-2e8f-4de1-b216-43ca126bd575")
+			(uuid "6a8ce862-2e8f-4de1-b216-43ca126bd576")
 		)
 		(pin "4"
-			(uuid "b723a3a5-589c-4dce-8bab-68e6d9b076df")
+			(uuid "b723a3a5-589c-4dce-8bab-68e6d9b076e0")
 		)
 		(pin "1"
 			(uuid "59ebc667-6fc0-44ed-a34c-97223eba01b4")
@@ -16224,6 +16211,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:Fuse")
+		(at 80.01 49.53 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ea443332-bba2-49d4-a0f3-a44fba63e6e7")
+		(property "Reference" "F1"
+			(at 80.01 43.18 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1A Fuse"
+			(at 80.01 45.72 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Fuse:Fuse_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
+			(at 80.01 51.308 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 80.01 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Fuse"
+			(at 80.01 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0765b150-2343-4e93-a0c3-8a5279de4842")
+		)
+		(pin "2"
+			(uuid "e9a605cf-eb33-4b39-bc7a-edede851a554")
+		)
+		(instances
+			(project ""
+				(path "/b501b7ca-e95b-4b3b-b6f7-713920a11953"
+					(reference "F1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small")
 		(at 71.12 92.71 0)
 		(unit 1)
@@ -16288,74 +16343,6 @@
 			(project "ESP32-RS485"
 				(path "/b501b7ca-e95b-4b3b-b6f7-713920a11953"
 					(reference "R5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:Polyfuse_Small")
-		(at 80.01 49.53 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f2dc8f25-efa3-452e-b976-65131a32a888")
-		(property "Reference" "F1"
-			(at 80.01 43.18 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Polyfuse 1A"
-			(at 80.01 45.72 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Fuse:Fuse_1206_3216Metric_Pad1.42x1.75mm_HandSolder"
-			(at 74.93 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 80.01 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resettable fuse, polymeric positive temperature coefficient, small symbol"
-			(at 80.01 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6a400583-2d11-481f-8c21-8efd5a5300ea")
-		)
-		(pin "2"
-			(uuid "9ce8fedc-c367-4e04-9c4b-1a429687da1b")
-		)
-		(instances
-			(project ""
-				(path "/b501b7ca-e95b-4b3b-b6f7-713920a11953"
-					(reference "F1")
 					(unit 1)
 				)
 			)
