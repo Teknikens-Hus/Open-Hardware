@@ -14818,7 +14818,7 @@
 		(layer "Edge.Cuts")
 		(uuid "4f891026-fca2-4143-98ec-c5ed84297781")
 	)
-	(gr_text "AddressableProgressbar V1"
+	(gr_text "AddressableProgressbar V2"
 		(at 120 158 270)
 		(layer "B.SilkS")
 		(uuid "d0e5268a-e1f3-48e3-803a-04d4b8e2a434")
@@ -17220,7 +17220,15 @@
 		(width 0.2)
 		(layer "F.Cu")
 		(net 6)
-		(uuid "5591d935-5dc1-4748-9d29-53e36a867fb4")
+		(uuid "49eddb7d-a0ed-4d2a-b692-c5c5fe313d81")
+	)
+	(segment
+		(start 122 155.794894)
+		(end 123.83 153.964894)
+		(width 0.4)
+		(layer "F.Cu")
+		(net 6)
+		(uuid "906c1557-b37f-4166-a44d-2197b84ff758")
 	)
 	(segment
 		(start 123.83 150.953191)
