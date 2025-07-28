@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "ESP32 D1 Mini")(type "KiCad")(uri "C:/Users/Gustav/Documents/GitHub/Open-Hardware/footprints/kicad-esp32-wemos-d1-mini-master/esp32-wemos-d1-mini.pretty")(options "")(descr ""))
+)
