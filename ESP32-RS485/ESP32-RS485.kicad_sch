@@ -5110,7 +5110,7 @@
 				)
 			)
 		)
-		(symbol "RF_Module:ESP32-WROOM-32D"
+		(symbol "RF_Module:ESP32-WROOM-32E"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -5123,7 +5123,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "ESP32-WROOM-32D"
+			(property "Value" "ESP32-WROOM-32E"
 				(at 1.27 34.29 0)
 				(effects
 					(font
@@ -5141,8 +5141,8 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://www.espressif.com/sites/default/files/documentation/esp32-wroom-32d_esp32-wroom-32u_datasheet_en.pdf"
-				(at -7.62 1.27 0)
+			(property "Datasheet" "https://www.espressif.com/sites/default/files/documentation/esp32-wroom-32e_esp32-wroom-32ue_datasheet_en.pdf"
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -5150,7 +5150,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "RF Module, ESP32-D0WD SoC, Wi-Fi 802.11b/g/n, Bluetooth, BLE, 32-bit, 2.7-3.6V, onboard antenna, SMD"
+			(property "Description" "RF Module, ESP32-D0WD-V3 SoC, without PSRAM, Wi-Fi 802.11b/g/n, Bluetooth, BLE, 32-bit, 2.7-3.6V, onboard antenna, SMD"
 				(at 0 0 0)
 				(effects
 					(font
@@ -5177,7 +5177,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "ESP32-WROOM-32D_0_1"
+			(symbol "ESP32-WROOM-32E_0_1"
 				(rectangle
 					(start -12.7 33.02)
 					(end 12.7 -33.02)
@@ -5190,7 +5190,7 @@
 					)
 				)
 			)
-			(symbol "ESP32-WROOM-32D_1_1"
+			(symbol "ESP32-WROOM-32E_1_1"
 				(pin power_in line
 					(at 0 -35.56 90)
 					(length 2.54)
@@ -5335,10 +5335,10 @@
 						)
 					)
 				)
-				(pin bidirectional line
-					(at -15.24 -5.08 0)
-					(length 2.54)
-					(name "SHD/SD2"
+				(pin no_connect line
+					(at -12.7 -5.08 0)
+					(length 2.54) hide
+					(name "NC"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5353,10 +5353,10 @@
 						)
 					)
 				)
-				(pin bidirectional line
-					(at -15.24 -7.62 0)
-					(length 2.54)
-					(name "SWP/SD3"
+				(pin no_connect line
+					(at -12.7 -7.62 0)
+					(length 2.54) hide
+					(name "NC"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5371,10 +5371,10 @@
 						)
 					)
 				)
-				(pin bidirectional line
-					(at -15.24 -12.7 0)
-					(length 2.54)
-					(name "SCS/CMD"
+				(pin no_connect line
+					(at -12.7 -12.7 0)
+					(length 2.54) hide
+					(name "NC"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5407,10 +5407,10 @@
 						)
 					)
 				)
-				(pin bidirectional line
-					(at -15.24 -10.16 0)
-					(length 2.54)
-					(name "SCK/CLK"
+				(pin no_connect line
+					(at -12.7 -10.16 0)
+					(length 2.54) hide
+					(name "NC"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5425,10 +5425,10 @@
 						)
 					)
 				)
-				(pin bidirectional line
-					(at -15.24 0 0)
-					(length 2.54)
-					(name "SDO/SD0"
+				(pin no_connect line
+					(at -12.7 0 0)
+					(length 2.54) hide
+					(name "NC"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5443,10 +5443,10 @@
 						)
 					)
 				)
-				(pin bidirectional line
-					(at -15.24 -2.54 0)
-					(length 2.54)
-					(name "SDI/SD1"
+				(pin no_connect line
+					(at -12.7 -2.54 0)
+					(length 2.54) hide
+					(name "NC"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -7179,30 +7179,6 @@
 		(uuid "90cda036-3530-442d-afe7-30fda92b8727")
 	)
 	(no_connect
-		(at 166.37 227.33)
-		(uuid "9397902a-fa2c-4aa8-9ef0-0c12b08e859c")
-	)
-	(no_connect
-		(at 166.37 214.63)
-		(uuid "9a4514a5-23c4-4c87-ae8b-25b52e0a45f2")
-	)
-	(no_connect
-		(at 166.37 217.17)
-		(uuid "abe8b038-d260-4995-9a45-aa08dd8b07ff")
-	)
-	(no_connect
-		(at 166.37 224.79)
-		(uuid "b7b48ef2-2380-4c0f-8849-ec60e9e36991")
-	)
-	(no_connect
-		(at 166.37 219.71)
-		(uuid "cea9c068-3d7e-4577-93c6-ab7a3237a53f")
-	)
-	(no_connect
-		(at 166.37 222.25)
-		(uuid "dfa0f67a-428b-4d2a-b16f-5d75482e3451")
-	)
-	(no_connect
 		(at 196.85 189.23)
 		(uuid "f2c8dc21-f708-4d99-8174-cb305651753c")
 	)
@@ -7545,6 +7521,16 @@
 			(type default)
 		)
 		(uuid "328a22bf-fa8e-4b8c-86cf-99be731fb3ac")
+	)
+	(wire
+		(pts
+			(xy 181.61 252.73) (xy 181.61 250.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "328dd685-087a-429c-b12d-526b748dc44b")
 	)
 	(wire
 		(pts
@@ -8258,16 +8244,6 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 191.77) (xy 196.85 191.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9577cd59-b32b-4017-8f3a-659876c777fb")
-	)
-	(wire
-		(pts
 			(xy 163.83 62.23) (xy 179.07 62.23)
 		)
 		(stroke
@@ -8465,16 +8441,6 @@
 			(type default)
 		)
 		(uuid "a79e5b6c-7d6c-4f24-95cc-cb4a34e461da")
-	)
-	(wire
-		(pts
-			(xy 181.61 251.46) (xy 181.61 250.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a7bc5602-ef3f-4816-b082-a90608d496f8")
 	)
 	(polyline
 		(pts
@@ -8905,6 +8871,16 @@
 			(type default)
 		)
 		(uuid "d0313563-4e28-4490-bef1-f679942a7361")
+	)
+	(wire
+		(pts
+			(xy 196.85 191.77) (xy 201.93 191.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d0d257e7-b7b3-419d-b178-61dbbe9ef1cd")
 	)
 	(polyline
 		(pts
@@ -13799,6 +13775,187 @@
 		)
 	)
 	(symbol
+		(lib_id "RF_Module:ESP32-WROOM-32E")
+		(at 181.61 214.63 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "71b190ef-7954-47c1-b15b-838f203e3666")
+		(property "Reference" "U3"
+			(at 183.8041 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "ESP32-WROOM-32E"
+			(at 183.8041 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "RF_Module:ESP32-WROOM-32D"
+			(at 198.12 248.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.espressif.com/sites/default/files/documentation/esp32-wroom-32e_esp32-wroom-32ue_datasheet_en.pdf"
+			(at 181.61 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RF Module, ESP32-D0WD-V3 SoC, without PSRAM, Wi-Fi 802.11b/g/n, Bluetooth, BLE, 32-bit, 2.7-3.6V, onboard antenna, SMD"
+			(at 181.61 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "30"
+			(uuid "681384dd-1457-4466-ba4b-30d5c93922e1")
+		)
+		(pin "37"
+			(uuid "0e72d1cc-4d90-45cf-943b-ce5e322047ce")
+		)
+		(pin "7"
+			(uuid "9b804e90-9c33-431e-8fab-fe697e451667")
+		)
+		(pin "8"
+			(uuid "c890159d-ac4f-4eb1-b7d9-f56a8b20fda6")
+		)
+		(pin "26"
+			(uuid "3295e12a-3f5c-48f2-b9df-ec2a8a0466a6")
+		)
+		(pin "28"
+			(uuid "0705de86-97f4-45f5-a11b-65df692d8a5f")
+		)
+		(pin "16"
+			(uuid "4b4c9c40-ef60-4982-bb23-a1052013fcfb")
+		)
+		(pin "13"
+			(uuid "24e497c8-ad0a-4f80-a5f0-224a0eada3fa")
+		)
+		(pin "38"
+			(uuid "1841faaa-38d0-4ba8-a4db-d72fa5f34182")
+		)
+		(pin "21"
+			(uuid "7ef3218a-4759-45ed-9e5c-01be7a22d012")
+		)
+		(pin "19"
+			(uuid "0b9035e7-ade5-40c8-828d-a7ba9c32e502")
+		)
+		(pin "10"
+			(uuid "4a80daff-1fcf-4b69-b70d-c67eb5aa0649")
+		)
+		(pin "17"
+			(uuid "249053ac-5de5-4aff-82b1-b05c67e2a776")
+		)
+		(pin "2"
+			(uuid "6a58af69-e932-4c79-a35f-640efc47c731")
+		)
+		(pin "23"
+			(uuid "f92b9524-9eca-41ce-9535-c12fda0af3ad")
+		)
+		(pin "24"
+			(uuid "e7c4ba2f-5062-459d-99b2-fc8050e78b65")
+		)
+		(pin "31"
+			(uuid "bc82e95d-842b-417c-aaad-0618a2043a5f")
+		)
+		(pin "3"
+			(uuid "b8461f06-3181-4e53-8bff-81a7592c32bf")
+		)
+		(pin "22"
+			(uuid "2acf72ee-e24c-47a9-b580-2ba0b51320ba")
+		)
+		(pin "39"
+			(uuid "1421a809-3819-4f41-afe5-a9fe619ab22a")
+		)
+		(pin "32"
+			(uuid "f9a2929c-0f0d-477d-873a-d92968a2dafe")
+		)
+		(pin "14"
+			(uuid "7143163c-2221-4a35-b8fb-a941f9fe0810")
+		)
+		(pin "9"
+			(uuid "4cb6df17-bb47-41cc-8058-bbc10b2b406c")
+		)
+		(pin "12"
+			(uuid "0136af77-7094-4092-afd4-005d6fe51b8a")
+		)
+		(pin "25"
+			(uuid "64d77209-891f-46ee-98e3-03ecbab302bb")
+		)
+		(pin "36"
+			(uuid "bf2c9f1e-0f87-4869-a784-e96378964aef")
+		)
+		(pin "18"
+			(uuid "e5e4dcc2-1241-4bae-b133-b4a7f4740410")
+		)
+		(pin "20"
+			(uuid "0e9e5a36-a244-49fb-afad-72725877434c")
+		)
+		(pin "33"
+			(uuid "82b2d823-b966-4efe-b2d7-7a184b199497")
+		)
+		(pin "34"
+			(uuid "0b7daed5-37d5-4a63-8953-776e8a2cfa4f")
+		)
+		(pin "35"
+			(uuid "d93b0253-12ec-4058-8a9b-5f85b8f15335")
+		)
+		(pin "5"
+			(uuid "75938eae-4e8b-43e8-be50-e40c34d23eca")
+		)
+		(pin "27"
+			(uuid "17c9cc89-cc67-4806-b7f5-f576bac29e0c")
+		)
+		(pin "4"
+			(uuid "31a6acea-4b3d-4d1a-8ef5-ee5be1e4eece")
+		)
+		(pin "6"
+			(uuid "f48a0f76-1a56-445c-bf4f-0c4d5a70b24b")
+		)
+		(pin "15"
+			(uuid "d84502aa-e208-49af-a8e8-a4d8e23c482f")
+		)
+		(pin "29"
+			(uuid "ec8bd089-74e1-44e6-9fba-21caf097808b")
+		)
+		(pin "1"
+			(uuid "bf0fc6f6-c321-4ad9-b047-0da268a6a030")
+		)
+		(pin "11"
+			(uuid "decbd850-a8a3-437a-9fce-27c1f36055bb")
+		)
+		(instances
+			(project ""
+				(path "/b501b7ca-e95b-4b3b-b6f7-713920a11953"
+					(reference "U3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 171.45 46.99 0)
 		(unit 1)
@@ -13929,72 +14086,6 @@
 			(project "ESP32-RS485"
 				(path "/b501b7ca-e95b-4b3b-b6f7-713920a11953"
 					(reference "#PWR038")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 181.61 251.46 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8ad64500-6be6-4460-a291-3c7be6fbaea9")
-		(property "Reference" "#PWR042"
-			(at 181.61 257.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 181.61 256.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 181.61 251.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 181.61 251.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 181.61 251.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ec7ca70c-6e61-4ac7-8fc9-f7b50d54c757")
-		)
-		(instances
-			(project "ESP32-RS485"
-				(path "/b501b7ca-e95b-4b3b-b6f7-713920a11953"
-					(reference "#PWR042")
 					(unit 1)
 				)
 			)
@@ -14533,187 +14624,6 @@
 			(project "ESP32-RS485"
 				(path "/b501b7ca-e95b-4b3b-b6f7-713920a11953"
 					(reference "#PWR029")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "RF_Module:ESP32-WROOM-32D")
-		(at 181.61 214.63 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "993c64fa-8c9e-4459-9380-3474689825a5")
-		(property "Reference" "U3"
-			(at 183.8041 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "ESP32-WROOM-32D"
-			(at 183.8041 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "RF_Module:ESP32-WROOM-32D"
-			(at 198.12 248.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.espressif.com/sites/default/files/documentation/esp32-wroom-32d_esp32-wroom-32u_datasheet_en.pdf"
-			(at 173.99 213.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "RF Module, ESP32-D0WD SoC, Wi-Fi 802.11b/g/n, Bluetooth, BLE, 32-bit, 2.7-3.6V, onboard antenna, SMD"
-			(at 181.61 214.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "11"
-			(uuid "11d1ffec-4bb7-4c6a-a10b-e2e554d0ff7b")
-		)
-		(pin "13"
-			(uuid "9f350ed3-b42c-44d4-9d14-a300fcdcab74")
-		)
-		(pin "15"
-			(uuid "e0486425-d83b-4337-a5b5-d65b19d2696f")
-		)
-		(pin "16"
-			(uuid "4cdac5e8-60c4-4565-8342-06bd492b4831")
-		)
-		(pin "10"
-			(uuid "fbaf203d-1d28-4105-9326-9605b91057b8")
-		)
-		(pin "12"
-			(uuid "48a595da-a91a-4266-9638-381ecf38f358")
-		)
-		(pin "14"
-			(uuid "2f0bac6f-b9d1-4da3-82a7-4bdc6e40140c")
-		)
-		(pin "17"
-			(uuid "fa099d1c-422c-4028-add8-1eea23270c85")
-		)
-		(pin "1"
-			(uuid "de3ad8cd-6552-4e28-ae4e-245fe2c852f5")
-		)
-		(pin "24"
-			(uuid "253f9587-d2fa-4e92-a10e-729b94ebe724")
-		)
-		(pin "3"
-			(uuid "e7dc0432-6d35-4e56-923a-733bee64c407")
-		)
-		(pin "7"
-			(uuid "95e6d56d-0d51-4de0-a6f6-b15a8ff6c0e3")
-		)
-		(pin "34"
-			(uuid "2baae70e-467f-430a-80ae-4ff40a0874c8")
-		)
-		(pin "39"
-			(uuid "2380a9cc-eebb-44ec-a65f-09f971a3c01c")
-		)
-		(pin "6"
-			(uuid "2271b253-61e8-4027-8d93-9cfa0708ecf3")
-		)
-		(pin "20"
-			(uuid "adaf1dea-022b-4f1e-87df-213bbff57e4e")
-		)
-		(pin "21"
-			(uuid "3e268ef4-3daa-4def-85db-e363d5c7bfb2")
-		)
-		(pin "22"
-			(uuid "49e160ca-d0de-44f2-95fd-95b0f31b77a6")
-		)
-		(pin "32"
-			(uuid "7495cfa4-b271-4953-9b32-f315329165eb")
-		)
-		(pin "4"
-			(uuid "fa4087ca-c55b-4faf-8236-1d705f681691")
-		)
-		(pin "38"
-			(uuid "76608580-2e45-42c9-95db-408c85e5dfad")
-		)
-		(pin "9"
-			(uuid "02315d44-4819-4728-9fe2-9556c6eb8540")
-		)
-		(pin "23"
-			(uuid "3f71a71b-66a7-4cbe-a241-eac6285f5214")
-		)
-		(pin "30"
-			(uuid "09e7cfd2-a16e-4cd2-b9e1-c0115a6dfe7b")
-		)
-		(pin "35"
-			(uuid "a229c68c-8e5e-4bcf-bce1-4ceab6584f19")
-		)
-		(pin "8"
-			(uuid "48f3cfac-e204-4475-a8ca-9c5d9c1b78ec")
-		)
-		(pin "33"
-			(uuid "c5ade598-0daf-421a-bf10-2ff32fbcbc97")
-		)
-		(pin "18"
-			(uuid "c5ed6bb9-5176-4526-b34a-da23d8eb22dd")
-		)
-		(pin "31"
-			(uuid "b8150dde-2b98-4c6f-b321-ce786157cd92")
-		)
-		(pin "25"
-			(uuid "0d6abf3c-dd4f-45a3-a39a-881496125749")
-		)
-		(pin "26"
-			(uuid "dc64a115-5b8a-4e18-9ab1-3c8f3ef5a16c")
-		)
-		(pin "36"
-			(uuid "999b8717-2b4c-4a22-b881-45477a4423cf")
-		)
-		(pin "37"
-			(uuid "7e0ec377-5090-4793-9b1c-cdcb3bead8fa")
-		)
-		(pin "29"
-			(uuid "769faf00-19f0-4bd2-9354-2d522464cf25")
-		)
-		(pin "28"
-			(uuid "ebd851c5-c6f1-407d-b7f8-9fc648e64008")
-		)
-		(pin "5"
-			(uuid "17b90247-040f-4871-a5e3-f9bf2f2717a2")
-		)
-		(pin "19"
-			(uuid "f0029137-f192-4527-b7f6-0bb64404713d")
-		)
-		(pin "2"
-			(uuid "3df30a88-b970-4292-b311-0e7ba04b38a6")
-		)
-		(pin "27"
-			(uuid "e86c4371-e3f8-4e5a-8e07-ea700b64f4a4")
-		)
-		(instances
-			(project ""
-				(path "/b501b7ca-e95b-4b3b-b6f7-713920a11953"
-					(reference "U3")
 					(unit 1)
 				)
 			)
@@ -15459,22 +15369,22 @@
 			)
 		)
 		(pin "3"
-			(uuid "80b0c527-979a-47bd-a2db-fd85cbca31ed")
+			(uuid "80b0c527-979a-47bd-a2db-fd85cbca31ee")
 		)
 		(pin "1"
-			(uuid "cf6afc76-1965-4a46-8d40-2f8c2f1fd3a8")
+			(uuid "cf6afc76-1965-4a46-8d40-2f8c2f1fd3a9")
 		)
 		(pin "5"
-			(uuid "38df9efd-fe51-4523-b5a2-701b6ffe2476")
+			(uuid "38df9efd-fe51-4523-b5a2-701b6ffe2477")
 		)
 		(pin "2"
-			(uuid "48d9fbd4-a3e6-445d-84a9-6999556395a3")
+			(uuid "48d9fbd4-a3e6-445d-84a9-6999556395a4")
 		)
 		(pin "4"
-			(uuid "4405ba2a-d526-41f1-af48-b272e761c318")
+			(uuid "4405ba2a-d526-41f1-af48-b272e761c319")
 		)
 		(pin "6"
-			(uuid "44295235-9ea2-494b-b990-4aaba71c2448")
+			(uuid "44295235-9ea2-494b-b990-4aaba71c2449")
 		)
 		(instances
 			(project ""
@@ -16242,6 +16152,72 @@
 			(project "ESP32-RS485"
 				(path "/b501b7ca-e95b-4b3b-b6f7-713920a11953"
 					(reference "#PWR044")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 181.61 252.73 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cca8695b-7ffa-4f2d-8a4e-0241cc8f714f")
+		(property "Reference" "#PWR042"
+			(at 181.61 259.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 181.61 257.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 181.61 252.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 181.61 252.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 181.61 252.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1f51450f-e5be-4c7a-a1bb-6fabf215c25a")
+		)
+		(instances
+			(project ""
+				(path "/b501b7ca-e95b-4b3b-b6f7-713920a11953"
+					(reference "#PWR042")
 					(unit 1)
 				)
 			)
