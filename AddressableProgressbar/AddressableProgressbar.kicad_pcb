@@ -13997,7 +13997,7 @@
 	(footprint "Graphics:teknikenshus-text-logo"
 		(layer "B.Cu")
 		(uuid "57ad45ed-6356-43ae-b0a4-3069c8f98bd1")
-		(at 124 151 90)
+		(at 123.8 147.3 90)
 		(property "Reference" "G***"
 			(at 0 0 90)
 			(layer "F.SilkS")
@@ -14817,6 +14817,42 @@
 		(fill no)
 		(layer "Edge.Cuts")
 		(uuid "4f891026-fca2-4143-98ec-c5ed84297781")
+	)
+	(gr_text "+5V"
+		(at 124.9 164.7 270)
+		(layer "B.SilkS")
+		(uuid "77a9c87d-5c40-4d4c-8168-a3f4e8b5fbff")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom mirror)
+		)
+	)
+	(gr_text "DATA"
+		(at 122.2 164.6 270)
+		(layer "B.SilkS")
+		(uuid "8f544ebe-23c7-4de1-b942-6fa718dab653")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom mirror)
+		)
+	)
+	(gr_text "GND"
+		(at 119.8 164.6 270)
+		(layer "B.SilkS")
+		(uuid "ab81dd64-3285-42d6-8ca8-b3fb0292449f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom mirror)
+		)
 	)
 	(gr_text "AddressableProgressbar V2"
 		(at 120 158 270)
