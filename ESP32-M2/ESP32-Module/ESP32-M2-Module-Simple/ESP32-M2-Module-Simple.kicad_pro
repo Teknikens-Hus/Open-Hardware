@@ -573,7 +573,7 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "ESP32-M2-Module-Simple.step",
       "svg": "",
       "vrml": ""
     },
