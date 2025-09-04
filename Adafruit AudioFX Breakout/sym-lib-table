@@ -1,0 +1,5 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "Adafruit AudioFX Breakout-eagle-import")(type "KiCad")(uri "${KIPRJMOD}/Adafruit AudioFX Breakout-eagle-import.kicad_sym")(options "")(descr ""))
+  (lib (name "AdaFruitModules")(type "KiCad")(uri "C:/Users/Gustav/Documents/GitHub/Open-Hardware/symbols/AdaFruitModules.kicad_sym")(options "")(descr ""))
+)
