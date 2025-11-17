@@ -6,7 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "ESP-32-Module-Breakout")
-		(rev "V1")
+		(date "2025-11-17")
+		(rev "V1.1")
 		(company "Teknikens Hus")
 	)
 	(lib_symbols
@@ -6847,7 +6848,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "22n"
+		(property "Value" "100uF"
 			(at 62.23 125.7299 0)
 			(effects
 				(font
@@ -10244,7 +10245,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "22n"
+		(property "Value" "10uF"
 			(at 34.29 125.7299 0)
 			(effects
 				(font
