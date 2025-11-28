@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "ESP32-ALED-Controller")
-		(date "2025-11-14")
-		(rev "V1")
+		(date "2025-11-28")
+		(rev "V1.1")
 		(company "Teknikens Hus")
 	)
 	(lib_symbols
