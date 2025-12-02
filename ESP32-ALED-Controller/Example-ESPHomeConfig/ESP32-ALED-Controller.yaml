@@ -1,0 +1,66 @@
+esp32:
+  board: wemos_d1_mini32
+  framework:
+    type: esp-idf
+
+
+esphome:
+  name: esp32-aled-controller
+  friendly_name: ESP32 ALED Controller
+  comment: ESP32 based addressable led controller
+
+
+# Enable logging
+logger:
+
+ota:
+  - platform: esphome
+
+wifi:
+  ssid: !secret wifi_ssid
+  password: !secret wifi_password
+  # Enable fallback hotspot (captive portal) in case wifi connection fails
+  ap:
+    ssid: esp32-aled-controller
+    password: !secret wifi_password
+
+captive_portal:
+
+web_server:
+  version: 3
+
+switch:
+  - platform: gpio
+    pin: GPIO14
+    name: "ALED Power"
+    id: aled_power
+    restore_mode: ALWAYS_OFF
+
+
+light:
+  - platform: esp32_rmt_led_strip
+    rgb_order: GRB
+    pin: GPIO18
+    num_leds: 44
+    chipset: ws2811
+    name: "LED 1"
+    effects:
+      - addressable_rainbow:
+#  - platform: esp32_rmt_led_strip
+#    rgb_order: GRB
+#    pin: GPIO23
+#    num_leds: 44
+#    chipset: ws2811
+#    name: "LED 2"
+#  - platform: esp32_rmt_led_strip
+#    rgb_order: GRB
+#    pin: GPIO21
+#    num_leds: 44
+#    chipset: ws2811
+#    name: "LED 3"
+#  - platform: esp32_rmt_led_strip
+#    rgb_order: GRB
+#    pin: GPIO22
+#    num_leds: 44
+#    chipset: ws2811
+#    name: "LED 4"

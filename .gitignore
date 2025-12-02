@@ -32,3 +32,4 @@ fp-info-cache
 *.DS_Store
 **/backups/**
 *.pcb3d
+**/secrets.yaml
