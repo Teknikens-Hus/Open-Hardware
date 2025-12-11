@@ -7,3 +7,4 @@ Various open hardware projects
 - [Adafruit AudioFX Breakout](<Adafruit AudioFX Breakout/ReadMe.md>)
 - [Addressable progressbar](AddressableProgressbar/README.md)
 - [ESP32 M.2 module and boards](ESP32-M2/ReadME.md)
+- [MCP23017 i2c Expander](<MCP23017 Expander/ReadMe.md>)

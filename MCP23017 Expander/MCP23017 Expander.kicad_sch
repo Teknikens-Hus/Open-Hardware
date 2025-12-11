@@ -6,9 +6,10 @@
 	(paper "A4")
 	(title_block
 		(title "MCP23017 Manual solder board")
-		(date "2025-07-11")
-		(rev "V1")
+		(date "2025-12-11")
+		(rev "V2")
 		(company "Teknikens Hus")
+		(comment 1 "By Gustav Mårdestam")
 	)
 	(lib_symbols
 		(symbol "Connector:Conn_01x03_Pin"
@@ -2345,6 +2346,12 @@
 		)
 	)
 	(junction
+		(at 83.82 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0d925bd3-bdd9-4681-a8a4-6b7478123c59")
+	)
+	(junction
 		(at 110.49 132.08)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2369,10 +2376,16 @@
 		(uuid "3ebf2bf9-7267-4897-ba91-d9f9d6956c9b")
 	)
 	(junction
-		(at 92.71 91.44)
+		(at 83.82 88.9)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "47411e5d-a7ba-440a-9f2e-2ad30d013bf2")
+		(uuid "52520795-458c-4b6e-9dd4-743a243fd467")
+	)
+	(junction
+		(at 83.82 86.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "726fa99e-d57b-4465-9eae-1d106802b700")
 	)
 	(junction
 		(at 107.95 68.58)
@@ -2381,22 +2394,16 @@
 		(uuid "79e6760f-8d3d-440d-9649-3dc51e6e6560")
 	)
 	(junction
-		(at 83.82 68.58)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7b262be2-2ec5-4efc-824b-11168ea4491f")
-	)
-	(junction
 		(at 118.11 127)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7b9e11bf-5b85-46c7-8c56-dab454cbe9b7")
 	)
 	(junction
-		(at 96.52 93.98)
+		(at 83.82 93.98)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "90234196-7309-41c6-8e1e-324dc2a24dc8")
+		(uuid "86beb5a3-48df-4f50-bceb-fe9738cf78d0")
 	)
 	(junction
 		(at 96.52 91.44)
@@ -2442,26 +2449,6 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 99.06) (xy 96.52 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "05f7abe2-e348-4461-9615-6485237cfda8")
-	)
-	(wire
-		(pts
-			(xy 64.77 86.36) (xy 77.47 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "085076d3-ada1-457b-93da-b1c042fda329")
-	)
-	(wire
-		(pts
 			(xy 104.14 144.78) (xy 97.79 144.78)
 		)
 		(stroke
@@ -2469,6 +2456,16 @@
 			(type default)
 		)
 		(uuid "0c454078-3356-4da6-a354-1b13a50c7cf7")
+	)
+	(wire
+		(pts
+			(xy 66.04 86.36) (xy 83.82 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c6a99ed-28cb-4769-b2f1-62f54df7f254")
 	)
 	(wire
 		(pts
@@ -2519,16 +2516,6 @@
 			(type default)
 		)
 		(uuid "193f08b4-5502-40be-a491-322c817a17ab")
-	)
-	(wire
-		(pts
-			(xy 92.71 96.52) (xy 92.71 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1bdc3c19-7447-4bde-b0bb-ff118c87640d")
 	)
 	(wire
 		(pts
@@ -2662,16 +2649,6 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 86.36) (xy 77.47 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "40b047b7-29c6-418a-b7aa-58bebd166093")
-	)
-	(wire
-		(pts
 			(xy 198.12 104.14) (xy 181.61 104.14)
 		)
 		(stroke
@@ -2702,16 +2679,6 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 91.44) (xy 96.52 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "498d6a36-729b-482b-a91b-dabd4ed1a0e0")
-	)
-	(wire
-		(pts
 			(xy 104.14 132.08) (xy 104.14 144.78)
 		)
 		(stroke
@@ -2739,16 +2706,6 @@
 			(type default)
 		)
 		(uuid "54ede186-adf5-493f-9003-32e644bc3503")
-	)
-	(wire
-		(pts
-			(xy 73.66 88.9) (xy 64.77 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "55846f9e-316d-4e8e-b0e7-ed9590765d44")
 	)
 	(wire
 		(pts
@@ -2932,16 +2889,6 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 99.06) (xy 96.52 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "83fafe4e-723c-41cb-a8c6-83a9fc3ed3d8")
-	)
-	(wire
-		(pts
 			(xy 156.21 114.3) (xy 198.12 114.3)
 		)
 		(stroke
@@ -2952,7 +2899,7 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 93.98) (xy 107.95 93.98)
+			(xy 83.82 93.98) (xy 107.95 93.98)
 		)
 		(stroke
 			(width 0)
@@ -2969,16 +2916,6 @@
 			(type default)
 		)
 		(uuid "8935235f-9026-4048-9b76-907d906da606")
-	)
-	(wire
-		(pts
-			(xy 92.71 96.52) (xy 73.66 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8a395c54-b5b8-461f-a3e4-d11c39d2e65b")
 	)
 	(wire
 		(pts
@@ -3062,26 +2999,6 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 93.98) (xy 74.93 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "99f65ee0-2b57-4d58-a7c6-91d00af5cac1")
-	)
-	(wire
-		(pts
-			(xy 74.93 68.58) (xy 83.82 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9e66a175-d86b-431d-af69-44cfae4f8935")
-	)
-	(wire
-		(pts
 			(xy 100.33 180.34) (xy 118.11 180.34)
 		)
 		(stroke
@@ -3132,6 +3049,16 @@
 	)
 	(wire
 		(pts
+			(xy 66.04 93.98) (xy 83.82 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a7f1d14c-a414-44b7-9cfd-a132b7549fc5")
+	)
+	(wire
+		(pts
 			(xy 166.37 72.39) (xy 198.12 72.39)
 		)
 		(stroke
@@ -3172,6 +3099,16 @@
 	)
 	(wire
 		(pts
+			(xy 66.04 88.9) (xy 83.82 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bb7e8c93-9067-41c4-b26c-0b3beea9a84b")
+	)
+	(wire
+		(pts
 			(xy 171.45 82.55) (xy 198.12 82.55)
 		)
 		(stroke
@@ -3179,6 +3116,16 @@
 			(type default)
 		)
 		(uuid "bd70dd6f-1b3e-456f-8556-887fa3674be0")
+	)
+	(wire
+		(pts
+			(xy 66.04 91.44) (xy 83.82 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "be26eaa9-4ac3-4713-9b13-3d79fc49c57b")
 	)
 	(wire
 		(pts
@@ -3282,16 +3229,6 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 96.52) (xy 73.66 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d050b89f-679e-46cc-b4df-72dfb5ab010e")
-	)
-	(wire
-		(pts
 			(xy 179.07 130.81) (xy 198.12 130.81)
 		)
 		(stroke
@@ -3382,7 +3319,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 91.44) (xy 92.71 91.44)
+			(xy 83.82 91.44) (xy 96.52 91.44)
 		)
 		(stroke
 			(width 0)
@@ -3452,16 +3389,6 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 93.98) (xy 96.52 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f2036006-4b1d-43f9-841b-53619170b1a7")
-	)
-	(wire
-		(pts
 			(xy 83.82 68.58) (xy 96.52 68.58)
 		)
 		(stroke
@@ -3469,16 +3396,6 @@
 			(type default)
 		)
 		(uuid "f91a0925-abb6-4e39-bb3b-fa73e899f829")
-	)
-	(wire
-		(pts
-			(xy 64.77 93.98) (xy 74.93 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fa1274d7-4496-403e-89c9-c2db67ce9c9b")
 	)
 	(wire
 		(pts
@@ -4832,7 +4749,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x04_Pin")
-		(at 59.69 88.9 0)
+		(at 60.96 88.9 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4840,7 +4757,7 @@
 		(dnp no)
 		(uuid "68829ced-1bb7-4481-9e30-0d3bfc0e2a7b")
 		(property "Reference" "J2"
-			(at 60.325 81.28 0)
+			(at 61.722 80.518 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4848,15 +4765,15 @@
 			)
 		)
 		(property "Value" "Output"
-			(at 59.436 84.074 0)
+			(at 60.833 83.312 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Horizontal"
-			(at 59.69 88.9 0)
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Horizontal"
+			(at 60.96 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4865,7 +4782,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 59.69 88.9 0)
+			(at 60.96 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4874,7 +4791,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x04, script generated"
-			(at 59.69 88.9 0)
+			(at 60.96 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5119,73 +5036,6 @@
 			(project "MCP23017 Expander"
 				(path "/2b5932b0-526c-4c5a-9c77-c747d093ba50"
 					(reference "#PWR028")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 64.77 91.44 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7886bc27-393d-423e-860a-cc753a486ff0")
-		(property "Reference" "#PWR01"
-			(at 71.12 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 68.58 91.4399 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 64.77 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 64.77 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 64.77 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6d9ef23b-0522-49a5-804f-6954521e059a")
-		)
-		(instances
-			(project "MCP23017 Expander"
-				(path "/2b5932b0-526c-4c5a-9c77-c747d093ba50"
-					(reference "#PWR01")
 					(unit 1)
 				)
 			)
