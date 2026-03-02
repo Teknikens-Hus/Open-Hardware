@@ -18,9 +18,14 @@ A simple addressable LED strip controller based on the ESP32 D1 Mini development
 - LED 2 Data - GPIO23
 - LED 3 Data - GPIO21
 - LED 4 Data - GPIO22
-- Relay Control - GPIO14
+- Relay Control - GPIO13 (V1 GPIO14)
 
 ## Additional LEDs
 The additonal data outputs (2-3) are disabled by default. To enable them, cut the jumper traces on the bottom side of the PCB and bridge it to the opposite side.
 ## Data Resistors
 Add data resistors for each data line. 33-200Ω is recommended. For the proper value, check the data line with an oscilloscope and try different resistors to find which provides the best square wave signal.
+
+
+## Revisions
+- V1.1 Fix Capacitor placement
+- V2 Add spare gpio pin headers
