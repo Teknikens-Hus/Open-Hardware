@@ -8,3 +8,4 @@ Various open hardware projects
 - [Addressable progressbar](AddressableProgressbar/README.md)
 - [ESP32 M.2 module and boards](ESP32-M2/ReadME.md)
 - [MCP23017 i2c Expander](<MCP23017 Expander/ReadMe.md>)
+- [ESP32-D1-Mini_DF-Player](ESP32-D1-Mini_DF-Player/README.md)

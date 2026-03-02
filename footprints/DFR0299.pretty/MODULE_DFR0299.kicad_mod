@@ -556,9 +556,9 @@
 		(uuid "32796828-368c-4f4e-b6df-118312148bb9")
 	)
 	(embedded_fonts no)
-	(model "C:/Users/gustavmardestam/Documents/GitHub/Open-Hardware/footprints/DFR0299.pretty/DFR0299.step"
+	(model "${KIPRJMOD}/../footprints/DFR0299.pretty/DFR0299.step"
 		(offset
-			(xyz 0 0 0)
+			(xyz 0 0 8.5)
 		)
 		(scale
 			(xyz 1 1 1)

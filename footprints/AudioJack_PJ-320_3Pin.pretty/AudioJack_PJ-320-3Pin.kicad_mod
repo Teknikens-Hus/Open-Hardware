@@ -1,0 +1,152 @@
+(footprint "AudioJack_PJ-320-3Pin"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -13.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "f531e185-4809-4825-9a1c-f26f65a9c42e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "AudioJack_PJ-320-3Pin"
+		(at 0 -12 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "c9c40885-480e-41a9-8251-2fdf33d5de11")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.amazon.se/-/en/gp/product/B07KYBXP8R"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ccde0968-0c2c-4d9c-9f89-23554d20466a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ddb2f72c-e34a-420f-b7b4-a8d6b0b49383")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_rect
+		(start -3 0)
+		(end 3 11)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "8e72639b-ba39-4629-8405-2c0a8032969a")
+	)
+	(fp_rect
+		(start -2.5 11)
+		(end 2.5 14)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "149933f7-a580-4113-82be-6d028142c7af")
+	)
+	(fp_circle
+		(center 0 2.7)
+		(end 0.65 2.7)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "Edge.Cuts")
+		(uuid "8286d1e6-af38-44c7-a136-2337b6829b1b")
+	)
+	(fp_circle
+		(center 0 8.7)
+		(end 0.65 8.7)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "Edge.Cuts")
+		(uuid "b5d6d094-6a01-4612-a40a-357aee2c2d69")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 -10 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "8b870a57-8659-49b4-876e-57064df8e047")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "R" thru_hole roundrect
+		(at -2.25 7)
+		(size 1.7 3)
+		(drill oval 0.9 1.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.15)
+		(uuid "07ee338a-ead1-4354-a1f4-55da4c6ef741")
+	)
+	(pad "S" thru_hole roundrect
+		(at 2.25 8.6)
+		(size 1.7 3)
+		(drill oval 0.9 1.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.15)
+		(uuid "3ef381e6-279e-4da2-a702-f41d48430e9d")
+	)
+	(pad "T" thru_hole roundrect
+		(at 2.25 2)
+		(size 1.7 3)
+		(drill oval 0.9 1.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.15)
+		(uuid "dfa97b8b-f53b-4d53-bc28-62de1c92221b")
+	)
+	(embedded_fonts no)
+	(model "C:/Users/gurra/Documents/GitHub/Open-Hardware/footprints/AudioJack_PJ-320_3Pin.pretty/3.5mmHeadphoneJack.step"
+		(offset
+			(xyz 0 -14 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
+)
