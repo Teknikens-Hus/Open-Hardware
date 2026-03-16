@@ -1305,6 +1305,131 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:+3.3V"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+3.3V"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+3.3V_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+3.3V_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:+5V"
 			(power)
 			(pin_numbers
@@ -2158,72 +2283,6 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 214.63 78.74 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "01bf07bc-5553-4f8a-af73-cd9f9cd8dd77")
-		(property "Reference" "#PWR03"
-			(at 214.63 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 214.63 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 214.63 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 214.63 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 214.63 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "bab5e5cd-39f1-4888-a7a8-06dd31dbe80c")
-		)
-		(instances
-			(project "DetectorRing"
-				(path "/d1d8d46c-463c-407d-ba4d-729f4cf1709f"
-					(reference "#PWR03")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
 		(at 215.9 31.75 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2283,6 +2342,71 @@
 			(project ""
 				(path "/d1d8d46c-463c-407d-ba4d-729f4cf1709f"
 					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 214.63 78.74 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0c5c6ce0-72f4-4c55-940e-e2dcbb97301d")
+		(property "Reference" "#PWR025"
+			(at 214.63 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 214.376 73.914 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 214.63 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 214.63 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 214.63 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8b12eab6-e9a6-46f8-8fb9-6d010866c3f4")
+		)
+		(instances
+			(project "IR-DetectorRing"
+				(path "/d1d8d46c-463c-407d-ba4d-729f4cf1709f"
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -2383,6 +2507,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:Conn_01x02_Pin")
+		(at 186.69 129.54 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "15b85f39-7ff6-4bcc-bf88-3919a9bef43f")
+		(property "Reference" "J1"
+			(at 187.96 128.9049 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "ADC Power Connector"
+			(at 187.96 131.4449 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_XH_S2B-XH-A_1x02_P2.50mm_Horizontal"
+			(at 186.69 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 186.69 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 186.69 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "52978046-1e4a-41c5-9697-435985c3845b")
+		)
+		(pin "2"
+			(uuid "1514b780-d467-4325-b658-27e53d15e79a")
+		)
+		(instances
+			(project "IR-DetectorRing"
+				(path "/d1d8d46c-463c-407d-ba4d-729f4cf1709f"
+					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Mechanical:MountingHole")
 		(at 102.87 173.99 0)
 		(unit 1)
@@ -2474,7 +2668,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_THT:LED_D5.0mm_Horizontal_O3.81mm_Z3.0mm"
+		(property "Footprint" "LED_THT:LED_D5.0mm_Horizontal_O3.81mm_Z3.0mm_Centered"
 			(at 62.865 44.45 0)
 			(effects
 				(font
@@ -2682,7 +2876,7 @@
 	)
 	(symbol
 		(lib_id "Sensor_Optical:SFH203FA")
-		(at 168.91 82.55 90)
+		(at 168.91 85.09 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2691,25 +2885,25 @@
 		(fields_autoplaced yes)
 		(uuid "3191fc83-a8db-4da8-a61e-17c9033aae62")
 		(property "Reference" "D4"
-			(at 171.45 82.207 90)
+			(at 173.99 82.8928 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Value" "SFH203FA"
-			(at 171.45 84.747 90)
+			(at 173.99 85.4328 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Footprint" "LED_THT:LED_D5.0mm_Horizontal_O3.81mm_Z3.0mm"
-			(at 164.465 82.55 0)
+		(property "Footprint" "LED_THT:LED_D5.0mm_Horizontal_O3.81mm_Z3.0mm_ReverseBias"
+			(at 173.355 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2727,7 +2921,7 @@
 			)
 		)
 		(property "Description" "Silicon PIN Photodiode with Daylight Blocking Filter"
-			(at 168.91 82.55 0)
+			(at 168.91 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2822,7 +3016,7 @@
 	)
 	(symbol
 		(lib_id "Sensor_Optical:SFH203FA")
-		(at 214.63 82.55 90)
+		(at 214.63 85.09 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2831,25 +3025,25 @@
 		(fields_autoplaced yes)
 		(uuid "32044c8c-dde9-4cac-9b00-1ec4feb47481")
 		(property "Reference" "D2"
-			(at 217.17 82.207 90)
+			(at 219.71 82.8928 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Value" "SFH203FA"
-			(at 217.17 84.747 90)
+			(at 219.71 85.4328 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Footprint" "LED_THT:LED_D5.0mm_Horizontal_O3.81mm_Z3.0mm"
-			(at 210.185 82.55 0)
+		(property "Footprint" "LED_THT:LED_D5.0mm_Horizontal_O3.81mm_Z3.0mm_ReverseBias"
+			(at 219.075 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2867,7 +3061,7 @@
 			)
 		)
 		(property "Description" "Silicon PIN Photodiode with Daylight Blocking Filter"
-			(at 214.63 82.55 0)
+			(at 214.63 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2975,7 +3169,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Power Connector"
+		(property "Value" "LED Power Connector"
 			(at 158.75 131.4449 90)
 			(effects
 				(font
@@ -3021,6 +3215,71 @@
 			(project ""
 				(path "/d1d8d46c-463c-407d-ba4d-729f4cf1709f"
 					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 186.69 134.62 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3d2de0bb-78ae-47e2-8a11-1a0651578d57")
+		(property "Reference" "#PWR024"
+			(at 186.69 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 186.69 140.462 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 186.69 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 186.69 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 186.69 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8de0051f-9048-4676-bdf3-f0692f7ca488")
+		)
+		(instances
+			(project ""
+				(path "/d1d8d46c-463c-407d-ba4d-729f4cf1709f"
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -3432,7 +3691,7 @@
 	)
 	(symbol
 		(lib_id "Sensor_Optical:SFH203FA")
-		(at 63.5 83.82 90)
+		(at 63.5 86.36 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3441,25 +3700,25 @@
 		(fields_autoplaced yes)
 		(uuid "664d9e24-fb38-47d1-9b08-ee872a9f6ed1")
 		(property "Reference" "D8"
-			(at 66.04 83.477 90)
+			(at 68.58 84.1628 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Value" "SFH203FA"
-			(at 66.04 86.017 90)
+			(at 68.58 86.7028 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Footprint" "LED_THT:LED_D5.0mm_Horizontal_O3.81mm_Z3.0mm"
-			(at 59.055 83.82 0)
+		(property "Footprint" "LED_THT:LED_D5.0mm_Horizontal_O3.81mm_Z3.0mm_ReverseBias"
+			(at 67.945 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3477,7 +3736,7 @@
 			)
 		)
 		(property "Description" "Silicon PIN Photodiode with Daylight Blocking Filter"
-			(at 63.5 83.82 0)
+			(at 63.5 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3495,6 +3754,71 @@
 			(project "DetectorRing"
 				(path "/d1d8d46c-463c-407d-ba4d-729f4cf1709f"
 					(reference "D8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 118.11 81.28 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6762f02b-108c-4708-a01b-8c587fa4cb73")
+		(property "Reference" "#PWR08"
+			(at 118.11 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 117.856 76.454 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 118.11 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 118.11 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 118.11 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b7b77414-7102-4606-8853-71f02f9ea55a")
+		)
+		(instances
+			(project "IR-DetectorRing"
+				(path "/d1d8d46c-463c-407d-ba4d-729f4cf1709f"
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -3705,72 +4029,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 118.11 81.28 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6d441358-efb2-4d5e-bb30-7f71d6b87872")
-		(property "Reference" "#PWR016"
-			(at 118.11 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 118.11 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 118.11 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 118.11 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 118.11 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b816532a-18d6-4b02-a32d-691d23570ad1")
-		)
-		(instances
-			(project "DetectorRing"
-				(path "/d1d8d46c-463c-407d-ba4d-729f4cf1709f"
-					(reference "#PWR016")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 118.11 63.5 0)
 		(unit 1)
@@ -3969,6 +4227,136 @@
 			(project "DetectorRing"
 				(path "/d1d8d46c-463c-407d-ba4d-729f4cf1709f"
 					(reference "R9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 63.5 80.01 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7306c3d4-f2ad-40f4-bb41-0b9ef293c987")
+		(property "Reference" "#PWR014"
+			(at 63.5 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 63.246 75.184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 63.5 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 63.5 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 63.5 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0b72ec93-e05d-4a4b-a31f-843655f8182b")
+		)
+		(instances
+			(project "IR-DetectorRing"
+				(path "/d1d8d46c-463c-407d-ba4d-729f4cf1709f"
+					(reference "#PWR014")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 184.15 134.62 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "759e66f8-6885-4de6-955c-97747ac3421d")
+		(property "Reference" "#PWR023"
+			(at 184.15 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 184.15 139.7 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 184.15 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 184.15 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 184.15 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7b0c5693-a240-4d49-9d5f-f316d4249095")
+		)
+		(instances
+			(project "IR-DetectorRing"
+				(path "/d1d8d46c-463c-407d-ba4d-729f4cf1709f"
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -4454,7 +4842,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_THT:LED_D5.0mm_Horizontal_O3.81mm_Z3.0mm"
+		(property "Footprint" "LED_THT:LED_D5.0mm_Horizontal_O3.81mm_Z3.0mm_Centered"
 			(at 113.665 45.72 0)
 			(effects
 				(font
@@ -4697,6 +5085,71 @@
 			(project "IR-DetectorRing"
 				(path "/d1d8d46c-463c-407d-ba4d-729f4cf1709f"
 					(reference "R16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 168.91 78.74 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ad983433-f290-4d59-9606-82778879d869")
+		(property "Reference" "#PWR03"
+			(at 168.91 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 168.656 73.914 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 168.91 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 168.91 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 168.91 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9e22f3b5-00eb-4f01-be25-7e35d993cc15")
+		)
+		(instances
+			(project "IR-DetectorRing"
+				(path "/d1d8d46c-463c-407d-ba4d-729f4cf1709f"
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -5102,7 +5555,7 @@
 	)
 	(symbol
 		(lib_id "Sensor_Optical:SFH203FA")
-		(at 118.11 85.09 90)
+		(at 118.11 87.63 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5111,25 +5564,25 @@
 		(fields_autoplaced yes)
 		(uuid "de931047-c4b9-4df0-915d-bb3ad4943de2")
 		(property "Reference" "D6"
-			(at 120.65 84.747 90)
+			(at 123.19 85.4328 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Value" "SFH203FA"
-			(at 120.65 87.287 90)
+			(at 123.19 87.9728 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Footprint" "LED_THT:LED_D5.0mm_Horizontal_O3.81mm_Z3.0mm"
-			(at 113.665 85.09 0)
+		(property "Footprint" "LED_THT:LED_D5.0mm_Horizontal_O3.81mm_Z3.0mm_ReverseBias"
+			(at 122.555 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5147,7 +5600,7 @@
 			)
 		)
 		(property "Description" "Silicon PIN Photodiode with Daylight Blocking Filter"
-			(at 118.11 85.09 0)
+			(at 118.11 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5292,7 +5745,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_THT:LED_D5.0mm_Horizontal_O3.81mm_Z3.0mm"
+		(property "Footprint" "LED_THT:LED_D5.0mm_Horizontal_O3.81mm_Z3.0mm_Centered"
 			(at 164.465 45.72 0)
 			(effects
 				(font
@@ -5410,7 +5863,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "e5a6657a-9853-4546-bd5a-66bb01380f38")
 		(property "Reference" "#PWR017"
 			(at 154.94 140.97 0)
@@ -5422,7 +5874,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 154.94 139.7 0)
+			(at 154.94 139.7 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5666,79 +6118,12 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 168.91 78.74 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f2b2466c-1a3a-48b3-b46a-e6097071a247")
-		(property "Reference" "#PWR08"
-			(at 168.91 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 168.91 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 168.91 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 168.91 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 168.91 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "bb3d964e-6be4-44ac-b112-304bc07e444b")
-		)
-		(instances
-			(project "DetectorRing"
-				(path "/d1d8d46c-463c-407d-ba4d-729f4cf1709f"
-					(reference "#PWR08")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
 		(at 157.48 134.62 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "fc7b32d7-205a-461e-b328-fa6cf43ce352")
 		(property "Reference" "#PWR018"
 			(at 157.48 130.81 0)
@@ -5750,7 +6135,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 157.48 139.7 0)
+			(at 157.48 139.7 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5797,72 +6182,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 63.5 80.01 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ff0d0f27-f02a-4d0b-b055-8afdae03a1c6")
-		(property "Reference" "#PWR014"
-			(at 63.5 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 63.5 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 63.5 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 63.5 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 63.5 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "accb8211-919d-4308-ae32-c011392d30d3")
-		)
-		(instances
-			(project "DetectorRing"
-				(path "/d1d8d46c-463c-407d-ba4d-729f4cf1709f"
-					(reference "#PWR014")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "LED:LD271")
 		(at 215.9 44.45 90)
 		(unit 1)
@@ -5890,7 +6209,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_THT:LED_D5.0mm_Horizontal_O3.81mm_Z3.0mm"
+		(property "Footprint" "LED_THT:LED_D5.0mm_Horizontal_O3.81mm_Z3.0mm_Centered"
 			(at 211.455 44.45 0)
 			(effects
 				(font
