@@ -465,7 +465,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "DetectorRing.kicad_pro",
+    "filename": "IR-DetectorRing.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -504,7 +504,7 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "IR-DetectorRing_V2.step",
       "svg": "",
       "vrml": ""
     },
